@@ -11,9 +11,19 @@ class App extends Component {
           <h1 className="App-title">Graço: Make Your Friends Place Your Personal Warehouse</h1>
         </header>
         <p className="App-intro">
+          <h2> How It Works:</h2>
+            If you are moving out for the semester, going on internship, studying abroad or whatever life throws at you can request a person
+            store your stuff.  
+
+
+
+        </p>
+        <p>
           Avalible Storage Areas: Baltimore, MD
         </p>
-        <p>1. 6605 Collinsdale Rd 2. 22 Acorn Circle</p>
+        <p>
+          1. 6605 Collinsdale Rd 2. 22 Acorn Circle
+        </p>
       </div>
     );
   }
