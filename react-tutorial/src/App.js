@@ -1,32 +1,25 @@
 import React, { Component } from 'react';
+import {Elements, StripeProvider} from 'react-stripe-elements';
+import CheckoutForm from './CheckoutForm';
 import logo from './logo.svg';
 import './App.css';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Graço: Make Your Friends Place Your Personal Warehouse</h1>
-        </header>
-        <p className="App-intro">
-          <h2> How It Works:</h2>
-            If you are moving out for the semester, going on internship, studying abroad or whatever life throws at you can request a person
-            store your stuff.  
-
-
-
-        </p>
-        <p>
-          Avalible Storage Areas: Baltimore, MD
-        </p>
-        <p>
-          1. 6605 Collinsdale Rd 2. 22 Acorn Circle
-        </p>
-      </div>
+      <StripeProvider apiKey="pk_test_TYooMQauvdEDq54NiTphI7jx">
+        <div className="example">
+          <h1>React Stripe Elements Example</h1>
+          <Elements>
+            <CheckoutForm />
+          </Elements>
+        </div>
+      </StripeProvider>
     );
   }
 }
+
+
 
 export default App;
