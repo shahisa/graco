@@ -1,4 +1,5 @@
 import React from "react";
+import courtHouseImg from '../courtHouseImg.jpg'
 
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
         Avalible Storage Areas: Baltimore, MD
       </p>
       <div className="App-image">
-
+        <img src={courtHouseImg} alt="Court House Aparments "/>
       </div>
       <p>
         1. 6605 Collinsdale Rd 2. 22 Acorn Circle

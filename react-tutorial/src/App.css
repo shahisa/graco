@@ -6,12 +6,12 @@
 
 }
 
-/* .App-image{
-  height: 10px;
-  width: 10px;
+.App-image img{
+  height: 100px;
+  width: 100px;
   align-self: center;
 
-} */
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
